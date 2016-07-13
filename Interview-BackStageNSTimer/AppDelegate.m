@@ -13,7 +13,11 @@
 @end
 
 @implementation AppDelegate
-
+/*
+ *后台运行计时器必备要素
+ *plist文件添加Required background modes
+ *添加value:App plays audio or streams audio/video using AirPlay
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
