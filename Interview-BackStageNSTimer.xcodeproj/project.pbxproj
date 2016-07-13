@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEA8A881D35EB4300C8B6A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8A871D35EB4300C8B6A6 /* main.m */; };
+		AEEA8A8B1D35EB4300C8B6A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8A8A1D35EB4300C8B6A6 /* AppDelegate.m */; };
+		AEEA8A8E1D35EB4300C8B6A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8A8D1D35EB4300C8B6A6 /* ViewController.m */; };
+		AEEA8A911D35EB4300C8B6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEA8A8F1D35EB4300C8B6A6 /* Main.storyboard */; };
+		AEEA8A931D35EB4300C8B6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEA8A921D35EB4300C8B6A6 /* Assets.xcassets */; };
+		AEEA8A961D35EB4300C8B6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEA8A941D35EB4300C8B6A6 /* LaunchScreen.storyboard */; };
+		AEEA8AA11D35EB4400C8B6A6 /* Interview_BackStageNSTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8AA01D35EB4400C8B6A6 /* Interview_BackStageNSTimerTests.m */; };
+		AEEA8AAC1D35EB4400C8B6A6 /* Interview_BackStageNSTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8AAB1D35EB4400C8B6A6 /* Interview_BackStageNSTimerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEEA8A9D1D35EB4400C8B6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEA8A7B1D35EB4300C8B6A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEA8A821D35EB4300C8B6A6;
+			remoteInfo = "Interview-BackStageNSTimer";
+		};
+		AEEA8AA81D35EB4400C8B6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEA8A7B1D35EB4300C8B6A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEA8A821D35EB4300C8B6A6;
+			remoteInfo = "Interview-BackStageNSTimer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEEA8A831D35EB4300C8B6A6 /* Interview-BackStageNSTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview-BackStageNSTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEA8A871D35EB4300C8B6A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEEA8A891D35EB4300C8B6A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEEA8A8A1D35EB4300C8B6A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEEA8A8C1D35EB4300C8B6A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEEA8A8D1D35EB4300C8B6A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEEA8A901D35EB4300C8B6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEA8A921D35EB4300C8B6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEEA8A951D35EB4300C8B6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEA8A971D35EB4400C8B6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEA8A9C1D35EB4400C8B6A6 /* Interview-BackStageNSTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview-BackStageNSTimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEA8AA01D35EB4400C8B6A6 /* Interview_BackStageNSTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interview_BackStageNSTimerTests.m; sourceTree = "<group>"; };
+		AEEA8AA21D35EB4400C8B6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEA8AA71D35EB4400C8B6A6 /* Interview-BackStageNSTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview-BackStageNSTimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEA8AAB1D35EB4400C8B6A6 /* Interview_BackStageNSTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interview_BackStageNSTimerUITests.m; sourceTree = "<group>"; };
+		AEEA8AAD1D35EB4400C8B6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEA8A801D35EB4300C8B6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEA8A991D35EB4400C8B6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEA8AA41D35EB4400C8B6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEA8A7A1D35EB4300C8B6A6 = {
+			isa = PBXGroup;
+			children = (
+				AEEA8A851D35EB4300C8B6A6 /* Interview-BackStageNSTimer */,
+				AEEA8A9F1D35EB4400C8B6A6 /* Interview-BackStageNSTimerTests */,
+				AEEA8AAA1D35EB4400C8B6A6 /* Interview-BackStageNSTimerUITests */,
+				AEEA8A841D35EB4300C8B6A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEA8A841D35EB4300C8B6A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8A831D35EB4300C8B6A6 /* Interview-BackStageNSTimer.app */,
+				AEEA8A9C1D35EB4400C8B6A6 /* Interview-BackStageNSTimerTests.xctest */,
+				AEEA8AA71D35EB4400C8B6A6 /* Interview-BackStageNSTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEA8A851D35EB4300C8B6A6 /* Interview-BackStageNSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8A891D35EB4300C8B6A6 /* AppDelegate.h */,
+				AEEA8A8A1D35EB4300C8B6A6 /* AppDelegate.m */,
+				AEEA8A8C1D35EB4300C8B6A6 /* ViewController.h */,
+				AEEA8A8D1D35EB4300C8B6A6 /* ViewController.m */,
+				AEEA8A8F1D35EB4300C8B6A6 /* Main.storyboard */,
+				AEEA8A921D35EB4300C8B6A6 /* Assets.xcassets */,
+				AEEA8A941D35EB4300C8B6A6 /* LaunchScreen.storyboard */,
+				AEEA8A971D35EB4400C8B6A6 /* Info.plist */,
+				AEEA8A861D35EB4300C8B6A6 /* Supporting Files */,
+			);
+			path = "Interview-BackStageNSTimer";
+			sourceTree = "<group>";
+		};
+		AEEA8A861D35EB4300C8B6A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8A871D35EB4300C8B6A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEEA8A9F1D35EB4400C8B6A6 /* Interview-BackStageNSTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8AA01D35EB4400C8B6A6 /* Interview_BackStageNSTimerTests.m */,
+				AEEA8AA21D35EB4400C8B6A6 /* Info.plist */,
+			);
+			path = "Interview-BackStageNSTimerTests";
+			sourceTree = "<group>";
+		};
+		AEEA8AAA1D35EB4400C8B6A6 /* Interview-BackStageNSTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8AAB1D35EB4400C8B6A6 /* Interview_BackStageNSTimerUITests.m */,
+				AEEA8AAD1D35EB4400C8B6A6 /* Info.plist */,
+			);
+			path = "Interview-BackStageNSTimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEA8A821D35EB4300C8B6A6 /* Interview-BackStageNSTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEA8AB01D35EB4400C8B6A6 /* Build configuration list for PBXNativeTarget "Interview-BackStageNSTimer" */;
+			buildPhases = (
+				AEEA8A7F1D35EB4300C8B6A6 /* Sources */,
+				AEEA8A801D35EB4300C8B6A6 /* Frameworks */,
+				AEEA8A811D35EB4300C8B6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interview-BackStageNSTimer";
+			productName = "Interview-BackStageNSTimer";
+			productReference = AEEA8A831D35EB4300C8B6A6 /* Interview-BackStageNSTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEEA8A9B1D35EB4400C8B6A6 /* Interview-BackStageNSTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEA8AB31D35EB4400C8B6A6 /* Build configuration list for PBXNativeTarget "Interview-BackStageNSTimerTests" */;
+			buildPhases = (
+				AEEA8A981D35EB4400C8B6A6 /* Sources */,
+				AEEA8A991D35EB4400C8B6A6 /* Frameworks */,
+				AEEA8A9A1D35EB4400C8B6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEA8A9E1D35EB4400C8B6A6 /* PBXTargetDependency */,
+			);
+			name = "Interview-BackStageNSTimerTests";
+			productName = "Interview-BackStageNSTimerTests";
+			productReference = AEEA8A9C1D35EB4400C8B6A6 /* Interview-BackStageNSTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEEA8AA61D35EB4400C8B6A6 /* Interview-BackStageNSTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEA8AB61D35EB4400C8B6A6 /* Build configuration list for PBXNativeTarget "Interview-BackStageNSTimerUITests" */;
+			buildPhases = (
+				AEEA8AA31D35EB4400C8B6A6 /* Sources */,
+				AEEA8AA41D35EB4400C8B6A6 /* Frameworks */,
+				AEEA8AA51D35EB4400C8B6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEA8AA91D35EB4400C8B6A6 /* PBXTargetDependency */,
+			);
+			name = "Interview-BackStageNSTimerUITests";
+			productName = "Interview-BackStageNSTimerUITests";
+			productReference = AEEA8AA71D35EB4400C8B6A6 /* Interview-BackStageNSTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEA8A7B1D35EB4300C8B6A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杨杰";
+				TargetAttributes = {
+					AEEA8A821D35EB4300C8B6A6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AEEA8A9B1D35EB4400C8B6A6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AEEA8A821D35EB4300C8B6A6;
+					};
+					AEEA8AA61D35EB4400C8B6A6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AEEA8A821D35EB4300C8B6A6;
+					};
+				};
+			};
+			buildConfigurationList = AEEA8A7E1D35EB4300C8B6A6 /* Build configuration list for PBXProject "Interview-BackStageNSTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEA8A7A1D35EB4300C8B6A6;
+			productRefGroup = AEEA8A841D35EB4300C8B6A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEA8A821D35EB4300C8B6A6 /* Interview-BackStageNSTimer */,
+				AEEA8A9B1D35EB4400C8B6A6 /* Interview-BackStageNSTimerTests */,
+				AEEA8AA61D35EB4400C8B6A6 /* Interview-BackStageNSTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEA8A811D35EB4300C8B6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEA8A961D35EB4300C8B6A6 /* LaunchScreen.storyboard in Resources */,
+				AEEA8A931D35EB4300C8B6A6 /* Assets.xcassets in Resources */,
+				AEEA8A911D35EB4300C8B6A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEA8A9A1D35EB4400C8B6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEA8AA51D35EB4400C8B6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEA8A7F1D35EB4300C8B6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEA8A8E1D35EB4300C8B6A6 /* ViewController.m in Sources */,
+				AEEA8A8B1D35EB4300C8B6A6 /* AppDelegate.m in Sources */,
+				AEEA8A881D35EB4300C8B6A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEA8A981D35EB4400C8B6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEA8AA11D35EB4400C8B6A6 /* Interview_BackStageNSTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEA8AA31D35EB4400C8B6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEA8AAC1D35EB4400C8B6A6 /* Interview_BackStageNSTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEEA8A9E1D35EB4400C8B6A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEA8A821D35EB4300C8B6A6 /* Interview-BackStageNSTimer */;
+			targetProxy = AEEA8A9D1D35EB4400C8B6A6 /* PBXContainerItemProxy */;
+		};
+		AEEA8AA91D35EB4400C8B6A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEA8A821D35EB4300C8B6A6 /* Interview-BackStageNSTimer */;
+			targetProxy = AEEA8AA81D35EB4400C8B6A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEEA8A8F1D35EB4300C8B6A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEA8A901D35EB4300C8B6A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEA8A941D35EB4300C8B6A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEA8A951D35EB4300C8B6A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEA8AAE1D35EB4400C8B6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEA8AAF1D35EB4400C8B6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEA8AB11D35EB4400C8B6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Interview-BackStageNSTimer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YJ.Interview-BackStageNSTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEEA8AB21D35EB4400C8B6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Interview-BackStageNSTimer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YJ.Interview-BackStageNSTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEEA8AB41D35EB4400C8B6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Interview-BackStageNSTimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YJ.Interview-BackStageNSTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interview-BackStageNSTimer.app/Interview-BackStageNSTimer";
+			};
+			name = Debug;
+		};
+		AEEA8AB51D35EB4400C8B6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Interview-BackStageNSTimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YJ.Interview-BackStageNSTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interview-BackStageNSTimer.app/Interview-BackStageNSTimer";
+			};
+			name = Release;
+		};
+		AEEA8AB71D35EB4400C8B6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Interview-BackStageNSTimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YJ.Interview-BackStageNSTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Interview-BackStageNSTimer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AEEA8AB81D35EB4400C8B6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Interview-BackStageNSTimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YJ.Interview-BackStageNSTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Interview-BackStageNSTimer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEA8A7E1D35EB4300C8B6A6 /* Build configuration list for PBXProject "Interview-BackStageNSTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEA8AAE1D35EB4400C8B6A6 /* Debug */,
+				AEEA8AAF1D35EB4400C8B6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEA8AB01D35EB4400C8B6A6 /* Build configuration list for PBXNativeTarget "Interview-BackStageNSTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEA8AB11D35EB4400C8B6A6 /* Debug */,
+				AEEA8AB21D35EB4400C8B6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEEA8AB31D35EB4400C8B6A6 /* Build configuration list for PBXNativeTarget "Interview-BackStageNSTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEA8AB41D35EB4400C8B6A6 /* Debug */,
+				AEEA8AB51D35EB4400C8B6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEEA8AB61D35EB4400C8B6A6 /* Build configuration list for PBXNativeTarget "Interview-BackStageNSTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEA8AB71D35EB4400C8B6A6 /* Debug */,
+				AEEA8AB81D35EB4400C8B6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEA8A7B1D35EB4300C8B6A6 /* Project object */;
+}
